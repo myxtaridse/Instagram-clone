@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.header {
+  padding: 30px 0;
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.429);
+
+  background-color: #e6eff5;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    font-family: "Jura", sans-serif;
+    p {
+      font-size: 34px;
+      color: #4343c8;
+      font-weight: 700;
+    }
+  }
+}
